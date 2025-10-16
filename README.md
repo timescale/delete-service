@@ -35,12 +35,12 @@ Delete a Tiger Cloud database service
 - **Deletion is permanent**: This action permanently deletes database services.
   Ensure you have backups if needed.
 
-
 ## Use Cases
 
-This action is particularly useful for deleting test databases created with the `timescale/fork-service` action.
-A typical workflow could be to create a test database when a PR is created, use it to verify requirements manually, and then delete the database when the PR is merged.
-
+This action is particularly useful for deleting test databases created with the
+`timescale/fork-service` action. A typical workflow could be to create a test
+database when a PR is created, use it to verify requirements manually, and then
+delete the database when the PR is merged.
 
 ## Integration with fork-service
 
