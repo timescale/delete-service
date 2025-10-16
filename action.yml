@@ -1,0 +1,24 @@
+name: Tiger Data - Delete Service
+description: Delete an existing database service
+author: Tiger Data
+
+# Add your action's branding here. This will appear on the GitHub Marketplace.
+branding:
+  icon: database
+  color: yellow
+
+# Define your inputs here.
+inputs:
+  project_id:
+    description: The project ID of your service
+    required: true
+  service_id:
+    description: The service ID of your service to delete
+    required: true
+  api_key:
+    description: A Tiger Data API key in format publicKey:secretKey
+    required: true
+
+runs:
+  using: node24
+  main: dist/index.js
